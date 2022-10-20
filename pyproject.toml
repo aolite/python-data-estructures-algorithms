@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "AlgorithmsBook"
+version = "0.1"
+description = "The examples of the Python Book"
+authors = ["Aitor Corchero Rodríguez <aitorcorchero@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
